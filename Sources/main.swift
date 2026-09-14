@@ -382,7 +382,7 @@ final class StatusController: NSObject, NSMenuDelegate {
     enum AnimStyle: String { case web, code, crab }
     var animStyle: AnimStyle = .web
     var showTimer = false
-    var showLabel = false
+    var showLabel = true
     var iconSystem = false // false = brand Orange; true = adaptive black/white (template image)
     var useThinkingWords = true     // rotate a playful verb ("Manifesting…") in place of "Thinking…"
     var sessionWord: [String: String] = [:] // id -> current thinking word; re-picked on each entry into "thinking"
